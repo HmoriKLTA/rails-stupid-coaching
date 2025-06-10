@@ -1,0 +1,29 @@
+<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(<%= asset_path('Stupid-coaching-app.jpg') %>);">
+  <div class="container">
+    <h1>Stupid Coaching App!</h1>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Rules
+    </button>
+  </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class='text-black'>1. If the message is I am going to work, the coach will answer Great!</p>
+          <p>
+            <p class='text-black'>2. If the message has a question mark ? at the end, the coach will answer Silly question, get dressed and go to work!.</p>
+            <p class='text-black'>3. Otherwise the coach will answer I don't care, get dressed and go to work!</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
